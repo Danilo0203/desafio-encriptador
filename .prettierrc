@@ -1,0 +1,8 @@
+{
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "editor.defaultFormatter": ["esbenp.prettier-vscode"],
+  "editor.formatOnSave": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.singleQuote": true,
+  "printWidth": 100
+}
