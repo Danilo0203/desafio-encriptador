@@ -23,7 +23,7 @@ Siendo parte del programa Oracle One, este proyecto refleja mi capacidad para ab
 1. **Clonar el Repositorio**: Copia este repositorio en tu máquina local ejecutando el siguiente comando en tu terminal:
 
    ```bash
-   git clone <https://github.com/Danilo0203/desafio-encriptador.git>
+   git clone https://github.com/Danilo0203/desafio-encriptador.git
    ```
 
 2. **Instalar Dependencias**: Después de clonar el repositorio, asegúrate de instalar las dependencias requeridas.
