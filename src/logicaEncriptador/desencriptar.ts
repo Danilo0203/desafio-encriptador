@@ -1,5 +1,14 @@
 export const desencriptar = (texto: string): string => {
-  let textoDesencriptado = texto.replace(
+  // Primero, reemplazar las letras encriptadas por las letras originales
+  let textoDesencriptado = texto
+    .replace(/enter/gi, "e")
+    .replace(/imes/gi, "i")
+    .replace(/ober/gi, "o")
+    .replace(/ufat/gi, "u")
+    .replace(/ai/gi, "a");
+
+  // Luego, reemplazar las palabras encriptadas por letras encriptadas
+  textoDesencriptado = textoDesencriptado.replace(
     /(enter|imes|ober|ufat|ai)/gi,
     (match, palabraEncriptada) => {
       switch (palabraEncriptada.toLowerCase()) {
